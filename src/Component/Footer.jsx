@@ -14,6 +14,9 @@ const Footer = () => {
     setActiveSection(activeSection === section ? null : section);
   };
 
+
+
+     
   const sections = {
     "Quick Links": ["Home", "Spécialité", "Réservation", "Contact Us"],
     "About Us": ["Test 1", "Test 2", "Test 3", "Test 4"],
