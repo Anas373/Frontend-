@@ -20,7 +20,7 @@ const Reservation = () => {
   }
 
   const handleAccept = () => {
-    navigate(`/Dashboard/${selectedDoctor.id}`);
+    navigate(`/Dashborde/${selectedDoctor.id}`);
   };
 
   const handleRating = (newRating) => {
